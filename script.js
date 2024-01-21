@@ -12,7 +12,7 @@ function getValue() {
 
     let value56 = document.getElementById("addedValue");
     let valueList = document.createElement("tr");
-    valueList.innerHTML = `<td>${nameValue}</td><td>${ageValue}</td><td>${courseValue}</td><td>${genderValue}</td><td>${emailValue}</td><td><button onclick="deleteRow(this)">Delete</button></td>`;
+    valueList.innerHTML = `<td>${nameValue}</td><td>${ageValue}</td><td>${courseValue}</td><td>${genderValue}</td><td>${emailValue}</td><td><button onclick="deleteRow(this)" style="background-color:red">Delete</button></td>`;
 
     value56.appendChild(valueList);
 }
