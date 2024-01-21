@@ -1,3 +1,5 @@
+let genderInput, genderValue;
+
 function getValue() {
     let nameValue = document.getElementById("name").value;
     let ageValue = document.getElementById("age").value;
@@ -5,8 +7,8 @@ function getValue() {
     let emailValue = document.getElementById("emailValue").value;
 
     // Handle radio buttons
-    let genderValue = document.querySelector('input[name="gender"]:checked');
-    genderValue = genderValue ? genderValue.value : "Not specified";
+    genderInput = document.querySelector('input[name="gender"]:checked');
+    genderValue = genderInput ? genderInput.value : "Not specified";
 
     let value56 = document.getElementById("addedValue");
     let valueList = document.createElement("tr");
@@ -14,6 +16,7 @@ function getValue() {
 
     value56.appendChild(valueList);
 }
+
 function deleteRow(button) {
     // Navigate up to the row and remove it
     let row = button.parentNode.parentNode;
