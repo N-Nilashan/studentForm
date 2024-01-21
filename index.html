@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Student Form</title>
+</head>
+
+<body>
+    <center>
+        <h1>Student Form</h1>
+
+        <table id="first">
+            <tr>
+                <th>Name</th>
+                <td><input type="text" value="Yosuva" id="name"></td>
+            </tr>
+            <tr>
+                <th>Age</th>
+                <td><input type="number" id="age"></td>
+            </tr>
+            <tr>
+                <th>Gender</th>
+                <td><input type="radio">Male <input type="radio">Female</td>
+            </tr>
+            <tr>
+                <th>Course</th>
+                <td><select name="Select Course" id="course">
+                        <option>JavaScript
+                        <option>Python</option>
+                        </option>
+                    </select></td>
+            </tr>
+            <tr>
+                <th>E-mail</th>
+                <td><input type="email" id="emailValue"></td>
+            </tr>
+            <tfoot>
+                <tr>
+                    <td colspan="2">
+                        <button class="fullwidth" onclick="getValue()">Save</button>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+        <table id="second">
+            <thead id="addedValue">
+                <tr id="firstRow">
+                    <th>NAME</th>
+                    <th>AGE</th>
+                    <th>COURSE</th>
+                    <th>GENDER</th>
+                    <th>EMAIL</th>
+                    <th>ACTION</th>
+                </tr>
+            </thead>
+        </table>
+    </center>
+    <script src="form.js"></script>
+</body>
+
+</html>

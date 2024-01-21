@@ -1,0 +1,28 @@
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+
+body {
+    background: linear-gradient(to right, #634841, #feb47b);
+}
+
+table,
+th,
+td {
+    border: 1px solid;
+}
+
+#first {
+    padding: 10px;
+}
+
+.fullwidth {
+    width: 100%;
+    background-color: rgb(101, 114, 110);
+}
+
+#second {
+    margin-top: 20px;
+}
