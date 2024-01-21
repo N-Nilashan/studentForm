@@ -23,10 +23,7 @@ This project is a simple web application that allows users to fill out a student
 - **styles.css:** The CSS file with styling for the web page.
 - **script.js:** The JavaScript file containing the logic for form submission and table manipulation.
 
-## Getting Started
 
-To run this project locally, follow these steps:
 
-1. Clone the repository to your local machine.
-   ```bash
-   git clone https://github.com/your-username/student-form.git
+# Contributions
+Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or create a pull request.
